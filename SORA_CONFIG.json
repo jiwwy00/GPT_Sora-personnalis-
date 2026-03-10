@@ -1,0 +1,24 @@
+{
+  "model_version": "sora-2-pro",
+  "technical_specs": {
+    "resolution": "1792x1024",
+    "aspect_ratio": "16:9",
+    "framerate": 24,
+    "bitrate": "high_fidelity"
+  },
+  "simulation_overrides": {
+    "gravity_constant": 9.8,
+    "fluid_dynamics": "realistic_interaction",
+    "cloth_physics": "high_subdivision"
+  },
+  "identity_management": {
+    "cameo_id": "@detective_jack",
+    "consistency_lock": true,
+    "lip_sync_target": "vocal_track_01"
+  },
+  "camera_payload": {
+    "lens": "35mm prime",
+    "shutter_angle": 180,
+    "f_stop": 2.0
+  }
+}
